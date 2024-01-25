@@ -14,13 +14,17 @@ body{
 
 header{
     height: 10vh;
-    /* background-color: #ff702a; */
-    margin: 0;
+    width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px;
+    margin: 0px 30px;
+    box-shadow: 0px 1px 10px #09090e;
+    position: fixed;
+    top: 0;
+    padding: 0px 30px;
+    z-index: 5;
 }
 
 header p {
@@ -38,12 +42,12 @@ header nav a{
 }
 
 header nav a:active{
-    color: red;
     outline: 1px solid #12b886;
 }
 
 main{
-    margin: 0 150px;
+    border: 1px solid red;
+    margin: 10vh 150px;
 }
 
 .fullWebsite{
