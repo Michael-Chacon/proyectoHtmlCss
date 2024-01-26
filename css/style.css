@@ -6,6 +6,7 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-padding: 10vh;
 }
 
 body{
@@ -88,7 +89,7 @@ button{
 
 .aboutUs{
     /* border: 1px solid yellowgreen; */
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -111,7 +112,7 @@ h4{
 
 /* Foot Menu */
 .footMenu{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -119,7 +120,6 @@ h4{
 }
 
 .titulos{
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,7 +167,7 @@ h4{
 /* Services */
 
 .services{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
