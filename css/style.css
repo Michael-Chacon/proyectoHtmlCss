@@ -106,10 +106,62 @@ button{
     font-size: 37px;
 }
 
-.aboutUs .textoAbout h4{
+h4{
     color: #ff702a;
 }
 
 /* Foot Menu */
+.footMenu{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footMenu .titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footMenu .menus{
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footMenu .menus .cardMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    border-radius: 2px;
+    padding: 20px 5px;
+    background-color: #ffefe8;
+}
+
+.footMenu .menus .imgMenu{
+    width: 280px;
+    object-fit: contain;
+}
+
+.footMenu .menus .cardMenu h4{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.footMenu .menus .cardMenu .categoria{
+    color: rgb(68, 67, 67);
+    font-weight: 600;
+}
+
+.footMenu .menus .cardMenu .precio{
+    color: #ff702a;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 600;
+}
 
 
