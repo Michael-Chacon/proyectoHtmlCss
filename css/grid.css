@@ -57,6 +57,10 @@ header nav a:active{
     outline: 1px solid #12b886;
 }
 
+header .btnMenu{
+    display: none;
+}
+
 main{
     margin-top: 10vh;
     margin-left: 2.37rem;
@@ -251,7 +255,7 @@ h4{
 
 .poster{
     height: 40vh;
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -262,7 +266,8 @@ h4{
 
 .poster p{
     font-size: clamp(1rem, 5vw, 3.75rem);
-    margin: 0px 80px;
+    margin: 0px 200px;
+    /* padding: 0px 80px; */
     text-align: center;
     color: black;
 
@@ -327,8 +332,40 @@ h4{
 
 @media(max-width: 460px){
 
-    nav{
+    /* .navMenu{
         display: none;
+    } */
+
+    header .btnMenu{
+        display: block;
+        margin-right: 10px;
+    }
+
+    .navMenu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 10vh;
+        width: 100%;
+        height:50vh;
+        background-color: #242335;
+        padding: auto;
+        transform: translateX(-300%);
+        transition: transform 0.5s;
+    }
+
+    .navMenu.active{
+        transform: translateX(0);
+   }
+
+    .navMenu a{
+        text-align: center;
+        font-size: 25px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        /* padding: 10px; */
     }
 
     main{
