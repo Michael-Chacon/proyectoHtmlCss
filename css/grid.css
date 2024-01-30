@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
-    /* padding: 0; */
 }
 
 html{
@@ -17,7 +17,7 @@ body{
     color: white;
     letter-spacing: 1px;
     font-size: 16px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 header{
@@ -56,7 +56,6 @@ header nav a:active{
 }
 
 main{
-
     margin-top: 10vh;
     margin-left: 2.37rem;
     margin-right: 2.37rem;
@@ -65,14 +64,12 @@ main{
 
 
 .fullWebsite{
-    /* outline: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     justify-content: center; 
     align-content: center;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
     height: 90vh; 
 }
 
@@ -90,7 +87,7 @@ main{
 }
 
 .fullWebsite h1{
-    font-size: clamp(2rem, 5vw, 16rem);
+    font-size: clamp(2.3rem, 5vw, 16rem);
     font-weight: normal;
     color: #ff702a;
 }
@@ -113,7 +110,6 @@ button{
 /* About Us */
 
 .aboutUs{
-    /* outline: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     justify-content: center; 
@@ -149,9 +145,8 @@ h4{
 /* Foot Menu */
 
 .footMenu{
-    border: 1px solid white;
+    padding-top: 30px;
     height: 90vh;
-    /* width: 100%; */
 }
 
 .menus, .allServices{
@@ -167,7 +162,6 @@ h4{
 }
 
 .cardMenu{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -177,7 +171,6 @@ h4{
 }
 
 .imgMenu{
-    /* border: 1px solid red; */
     width: 90%;
     object-fit: contain;
 }
@@ -189,7 +182,8 @@ h4{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
     text-align: center;
 }
 
@@ -214,7 +208,7 @@ h4{
 
 .services{
     height: 90vh;
-    /* width: 100%; */
+    padding-top: 30px;
 }
 
 .services .allServices .cardServer{
@@ -246,7 +240,6 @@ h4{
 /* contact */
 
 .contact{
-    /* outline: 1px solid red; */
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -255,12 +248,11 @@ h4{
 
 .poster{
     height: 40vh;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: #242335; */
     background-color: #ffefe8;
     border-radius: 3px;
 }
@@ -273,14 +265,14 @@ h4{
 }
 
 .footer{
-    /* outline: 1px solid blue; */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     height: 39vh;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
+    gap: 20px;
 }
 
 .infoFooter{
@@ -296,7 +288,6 @@ h4{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* gap: 5px; */
 }
 
 .infoFooter nav h3{
@@ -316,6 +307,7 @@ h4{
     text-decoration: none;
     color: white;
     font-weight: 400;
+    margin-bottom: 4px;
 }
 
 .infoFooter .redes i{
@@ -329,10 +321,28 @@ h4{
 }
 
 @media(max-width: 460px){
+
+    main{
+        /* margin-top: 10vh; */
+        margin-left: 1.37rem;
+        margin-right: 1.37rem;
+    }
+
+    .fullWebsite h1, p, .btnHome {
+        text-align: center;
+    }
+
+    .aboutUs .textoAbout{
+        text-align: center;
+        order: -1;
+    }
+
     .footMenu, .services, .footer{
-        /* border: 1px solid white; */
-        color:red;
         height: auto;
+    }
+
+    .contact{
+        height: 30vh;
     }
 
     .poster{
@@ -341,8 +351,23 @@ h4{
     }
 
     .poster p{
-        margin: 0px 10px;
+        margin: 0px 30px;
         text-align: center;
         color: black;
+    }
+
+    .footer{
+        margin-bottom: 20px;
+        
+    }
+
+    .infoFooter{
+        padding-left: 50px;
+        align-items: flex-start;
+    }
+
+    .infoFooter:last-child{
+        padding-left: 0px;
+        align-items: center;
     }
 }
