@@ -18,6 +18,7 @@ body{
     letter-spacing: 1px;
     font-size: 16px;
     overflow-x: hidden;
+    letter-spacing: 1px;
 }
 
 header{
@@ -306,7 +307,7 @@ h4{
 
 .infoFooter nav h3::after{
     content: '';
-    width: 40px;
+    width: 60px;
     height: 2px;
     background-color: #ff702a;
     margin-top: 2px;
@@ -332,10 +333,6 @@ h4{
 
 @media(max-width: 460px){
 
-    /* .navMenu{
-        display: none;
-    } */
-
     header .btnMenu{
         display: block;
         margin-right: 10px;
@@ -349,7 +346,7 @@ h4{
         left: 0;
         margin-top: 10vh;
         width: 100%;
-        height:50vh;
+        height: 50vh;
         background-color: #242335;
         padding: auto;
         transform: translateX(-300%);
@@ -365,11 +362,11 @@ h4{
         font-size: 25px;
         border-radius: 5px;
         margin-bottom: 15px;
-        /* padding: 10px; */
     }
 
     main{
-        /* margin-top: 10vh; */
+        border: 1px solid red;
+        /* margin: 0px 0.5rem; */
         margin-left: 1.37rem;
         margin-right: 1.37rem;
     }
@@ -415,5 +412,9 @@ h4{
     .infoFooter:last-child{
         padding-left: 0px;
         align-items: center;
+    }
+
+    .aboutUs .textoAbout{
+        padding: 0px 1.75rem
     }
 }
