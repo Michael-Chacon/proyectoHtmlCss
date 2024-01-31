@@ -166,7 +166,6 @@ h4{
     align-items: center;
     gap: 30px;
     padding: 0px 60px;
-    /* width: 100%; */
 }
 
 .cardMenu{
@@ -334,8 +333,8 @@ h4{
 @media(max-width: 460px){
 
     header .btnMenu{
-        display: block;
-        margin-right: 10px;
+        display: flex;
+        margin: 10px;
     }
 
     .navMenu{
@@ -347,7 +346,7 @@ h4{
         margin-top: 10vh;
         width: 100%;
         height: 50vh;
-        background-color: #242335;
+        background-color: #2c2b47;
         padding: auto;
         transform: translateX(-300%);
         transition: transform 0.5s;
