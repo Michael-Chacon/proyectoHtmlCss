@@ -175,6 +175,18 @@ h4{
     border-radius: 2px;
     padding: 20px 5px;
     background-color: #ffefe8;
+    position: relative;
+    
+}
+
+.menus .cardMenu i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffefe8;
+    font-size: 35px;
+    padding: 4px;
+    background-color: #ff702a;
 }
 
 .imgMenu{
