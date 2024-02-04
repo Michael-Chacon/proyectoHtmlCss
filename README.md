@@ -1,6 +1,33 @@
-Este proyecto consiste en una landing page para ofrecer  hamburguesas, diseñada y desarrollada utilizando HTML, CSS, Flexbox y Grid para una experiencia visual atractiva y responsive. La estructura flexible se adapta a diversos dispositivos, asegurando una experiencia de usuario consistente. El diseño utiliza prácticas de diseño responsivo para garantizar una visualización óptima en diferentes tamaños de pantalla. La combinación de Flexbox y Grid facilita la disposición de elementos, optimizando la presentación de la información y mejorando la navegación del usuario. ¡Explora y disfruta de la experiencia gastronómica digital!
+# Bienvenidos a mi landing page
 
-![https://github.com/Michael-Chacon/proyectoHtmlCss/blob/main/storage/gifs/desktop.gif]()
+¡Gracias por visitar nuestra landing page! Aquí encontrarás información detallada sobre nuestra empresa y los deliciosos servicios que ofrecemos. La página ha sido desarrollada utilizando HTML y CSS, con un diseño responsivo que se adapta a diferentes dispositivos gracias al uso de Flexbox y CSS Grid.
+
+## Menú de Navegación
+
+1. **About Us:**
+   - Descubre más sobre nuestra empresa y nuestra misión.
+
+2. **Menu:**
+   - Explora nuestro variado y delicioso menú del día.
+
+3. **Service:**
+   - Conoce los servicios excepcionales que ofrecemos a nuestros clientes.
+
+4. **Contacto:**
+   - Encuentra formas de contactarnos a través de diversas redes sociales.
+
+## Tecnologías Utilizadas
+
+- HTML
+- CSS (Flexbox y CSS Grid)
+
+## Cómo Contribuir
+
+¡Agradecemos cualquier contribución que desees realizar! Si tienes sugerencias de mejora, nuevas ideas para el menú, o encuentras algún problema, no dudes en abrir un "issue" o enviar un "pull request".
+
+¡Gracias¡
+
+![](https://github.com/Michael-Chacon/proyectoHtmlCss/blob/main/storage/gifs/desktop.gif)
 
 
 
